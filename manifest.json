@@ -1,0 +1,10 @@
+{
+  "id": "copy-note-name-s68s",
+  "name": "Скопировать имя заметки",
+  "version": "1.0.0",
+  "minAppVersion": "0.1.0",
+  "description": "Добавляет кнопку для копирования имени текущей заметки в буфер обмена.",
+  "author": "surrsoft",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
