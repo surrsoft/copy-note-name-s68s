@@ -12,7 +12,7 @@ module.exports = class CopyNoteNamePlugin extends Plugin {
         navigator.clipboard
           .writeText(noteName)
           .then(() => {
-            new Notice("Имя заметки скопировано в буфер обмена");
+            new Notice("Имя заметки скопировано в буфер обмена", 500);
           })
           .catch((err) => {
             new Notice("Ошибка при копировании: " + err);

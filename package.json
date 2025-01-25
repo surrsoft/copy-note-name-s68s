@@ -1,0 +1,26 @@
+{
+  "name": "copy-note-name-s68s",
+  "version": "1.1.0",
+  "description": "- плагин добавляет на sidebar кнопку при нажатии на которую в буфер обмена копируется название текуще заметки - версия 1.0.0 2024-11-30 - ID !!s68s!!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surrsoft/copy-note-name-s68s.git"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin"
+  ],
+  "author": "surrsoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surrsoft/copy-note-name-s68s/issues"
+  },
+  "homepage": "https://github.com/surrsoft/copy-note-name-s68s#readme",
+  "dependencies": {
+    "obsidian": "^1.7.2"
+  }
+}
