@@ -8,9 +8,10 @@ module.exports = class CopyNoteNamePlugin extends Plugin {
       const activeFile = this.app.workspace.getActiveFile();
       if (activeFile) {
         const noteName = activeFile.basename;
+        const noteNameWithBrackets = `[[${noteName}]]`;
         // Копируем имя заметки в буфер обмена
         navigator.clipboard
-          .writeText(noteName)
+          .writeText(noteNameWithBrackets)
           .then(() => {
             new Notice("Имя заметки скопировано в буфер обмена", 500);
           })
